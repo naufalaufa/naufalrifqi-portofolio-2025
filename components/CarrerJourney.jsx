@@ -5,7 +5,7 @@ import { ImOffice } from "react-icons/im";
 const CarrerJourney = () => {
   return (
     <section className="bg-white p-3 ">
-      <p className="p-3 text-sm font-bold my-10">
+      <p className="p-3 text-sm font-bold my-10 italic">
         {"{ "}Carrer Journey{" }"}
       </p>
       {dataCarrerJouney.map((journey) => {
