@@ -29,7 +29,7 @@ const Footer = dynamic(() => import("@/components/Footer"), {
 const Page = () => {
   return (
     <>
-      <div className="bg-gradient-to-r from-black to-black/80 pt-2">
+      <div className="bg-gradient-to-r from-black to-black/80 pt-2 max-w-screen">
         {/* <Header /> */}
         <Main />
         <ScrollComponent />

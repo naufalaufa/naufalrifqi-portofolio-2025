@@ -23,7 +23,7 @@ const About = () => {
         </div>
         <div className="mt-8">
           <a
-            href="/Mochamad-Naufal-Aufa-Rifqi-Tech-06122025.pdf"
+            href="/Mochamad-Naufal-Aufa-Rifqi-Tech-060122025.pdf"
             rel="noreferrer"
             target="_blank"
             className="bg-black border border-white text-center m-auto py-2 px-2 w-[50%] rounded-lg text-white hover:bg-white hover:text-black hover:border-black
