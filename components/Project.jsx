@@ -43,7 +43,7 @@ const Project = () => {
               </p>
               {statusLink && (
                 <Link
-                  className="bg-black flex items-center gap-2 max-w-[100px] text-white p-2 rounded-lg border border-white  mt-4 cursor-pointer hover:bg-white hover:text-black duration-100"
+                  className="bg-white flex items-center gap-2 max-w-[100px] text-black p-2 rounded-lg border border-white  mt-4 cursor-pointer hover:bg-black hover:text-white duration-100 "
                   href={href}
                   target="_blank"
                 >
