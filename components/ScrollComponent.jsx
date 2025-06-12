@@ -33,30 +33,30 @@ const ScrollComponent = () => {
     <>
       <div
         ref={rowOneRef}
-        className="grid grid-cols-3 gap-28 bg-black text-white -rotate-1"
+        className="grid grid-cols-3 gap-28 bg-black text-white -rotate-1overflow-hidden"
       >
-        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap">
+        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap overflow-x-hidden ">
           CODE EAT SLEEP REPEAT
         </div>
-        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap">
+        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap overflow-x-hidden">
           CODE EAT SLEEP REPEAT
         </div>
-        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap">
+        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap overflow-x-hidden">
           CODE EAT SLEEP REPEAT
         </div>
       </div>
 
       <div
         ref={rowTwoRef}
-        className="grid grid-cols-3 gap-28 bg-white text-black -rotate-0 "
+        className="grid grid-cols-3 gap-28 bg-white text-black -rotate-0 overflow-hidden"
       >
-        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap">
+        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap overflow-x-hidden">
           CODE EAT SLEEP REPEAT
         </div>
-        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap">
+        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap overflow-x-hidden">
           CODE EAT SLEEP REPEAT
         </div>
-        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap">
+        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap overflow-x-hidden">
           CODE EAT SLEEP REPEAT
         </div>
       </div>
