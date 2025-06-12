@@ -29,7 +29,7 @@ const Project = () => {
               <Image src={image} alt={name} />
               <p>{description}</p>
               <p>{techstack}</p>
-              <span className="bg-black p-2 rounded-xl text-white border-white border font-bold absolute top-0 -rotate-12">
+              <span className="bg-black p-2 rounded-xl text-white border-black border font-bold absolute top-0 -rotate-12">
                 {status}
               </span>
               <p
@@ -43,7 +43,7 @@ const Project = () => {
               </p>
               {statusLink && (
                 <Link
-                  className="bg-white flex items-center gap-2 max-w-[100px] text-black p-2 rounded-lg border border-white  mt-4 cursor-pointer hover:bg-black hover:text-white duration-100 "
+                  className="bg-white flex items-center gap-2 max-w-[100px] text-black p-2 rounded-lg border border-black  mt-4 cursor-pointer hover:bg-black hover:text-white duration-100 "
                   href={href}
                   target="_blank"
                 >
