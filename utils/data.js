@@ -102,7 +102,7 @@ export const dataCarrerJouney = [
     id: 2,
     company: "Zova Technology",
     position: "Quality Assurance Specialist ( Manual Testing )",
-    date: "2024 Desember - Present",
+    date: "2025 January - Present",
   },
 ];
 
