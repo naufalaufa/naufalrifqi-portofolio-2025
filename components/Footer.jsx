@@ -1,27 +1,29 @@
 import { dataFooter } from "@/utils/data";
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="bg-gray-800 text-white p-4 text-center">
-        <p className="text-sm mb-5">
-          © 2025 Mochamad Naufal Aufa Rifqi All rights reserved.
-        </p>
-        {dataFooter.map((footer) => {
-          const { id, title, link, icon: Icon } = footer;
-          return (
-            <a
-              key={id}
-              href={link}
-              className="text-white mx-3"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Icon size={25} className="inline-block mr-1 text-white" />
-            </a>
-          );
-        })}
-      </div>
+    <footer className="grid py-12 md:grid-cols-2 place-content-center place-items-center w-screen m-auto">
+        <div className="text-sm mb-5 text-white text-center">
+          <div>
+             <p>
+              Personal Portofolio
+              </p>
+              <p className="font-bold">Mochamad Naufal Aufa Rifqi</p>
+          </div>
+          <p className="mt-9 mb-2 text-xs">© Copyright By Mochamad Naufal Aufa Rifqi 2025</p>
+        </div>
+        <div className="text-sm mb-5 text-white border-white">
+          <p className="font-bold text-center">
+          Contact Me
+          </p>
+            <p className="text-xs mb-8">Connect my social media to Contribute Collaborate and Create Impact.</p>
+          <div className="flex gap-5 justify-center my-2">
+            {dataFooter.map((footerItem) => (
+              <Link target="_blank" key={footerItem.id} href={footerItem.link}>{<footerItem.icon size={25}/>}</Link>
+            ))}
+          </div>
+        </div>
     </footer>
   );
 };

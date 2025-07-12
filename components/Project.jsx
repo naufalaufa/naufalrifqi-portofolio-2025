@@ -29,7 +29,7 @@ const Project = () => {
               <Image src={image} alt={name} />
               <p>{description}</p>
               <p>{techstack}</p>
-              <span className="bg-black p-2 rounded-xl text-white border-black border font-bold absolute top-0 -rotate-12">
+              <span className="bg-black p-2 rounded-xl text-white border-white border font-bold absolute top-0 -rotate-12">
                 {status}
               </span>
               <p

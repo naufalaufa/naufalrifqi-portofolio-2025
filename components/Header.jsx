@@ -14,7 +14,7 @@ const Header = () => {
             key={id}
             href={path}
             className={
-              pathname === path ? "text-black font-bold" : "text-gray-700"
+              pathname === path ? "text-black font-bold text-xs" : "text-gray-700 text-xs"
             }
           >
             {title}

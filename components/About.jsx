@@ -3,12 +3,12 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="bg-gradient-to-r from-white to-white/90 grid grid-cols-1 md:grid-cols-2 py-24 place-content-center ">
+    <div className="bg-gradient-to-l text-white from-black to-blue-950 grid grid-cols-1 md:grid-cols-2 py-24 place-content-center">
       <div className="ml-5">
         <h1 className="mb-20 text-sm font-semibold italic">
-          {"{ "}Introduction{" }"}
+          {"{ "}Introduction 🧒{" }"}
         </h1>
-        <div className="text-lg">
+        <div className="text-lg ">
           <p>
             Hi, I'm{" "}
             <span className="font-bold italic">Mochamad Naufal Aufa Rifqi</span>{" "}

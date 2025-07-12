@@ -27,4 +27,11 @@ export const dataBlog = [
     image: ReactJsAndNextJs,
     createdAt: "",
   },
+  {
+    id: 4,
+    title: "Ada lovalace",
+    description: "ada",
+    image: ReactJsAndNextJs,
+    createdAt: "",
+  },
 ];

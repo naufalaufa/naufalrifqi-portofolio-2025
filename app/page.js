@@ -1,3 +1,4 @@
+import Loading from "@/components/Loading";
 import SideIcon from "@/components/SideIcon";
 import dynamic from "next/dynamic";
 
@@ -6,22 +7,22 @@ import dynamic from "next/dynamic";
 //   loading: () => <p>Loading...</p>,
 // });
 const Main = dynamic(() => import("@/components/Main"), {
-  loading: () => <p>Loading Main...</p>,
+  loading: () => <Loading/>,
 });
 const ScrollComponent = dynamic(() => import("@/components/ScrollComponent"), {
-  loading: () => <p>Loading ScrollComponent...</p>,
+  loading: () => <Loading/>,
 });
 const About = dynamic(() => import("@/components/About"), {
-  loading: () => <p>Loading About...</p>,
+  loading: () => <Loading/>,
 });
 const CarrerJourney = dynamic(() => import("@/components/CarrerJourney"), {
-  loading: () => <p>Loading Main...</p>,
+  loading: () => <Loading/>,
 });
 const Project = dynamic(() => import("@/components/Project"), {
-  loading: () => <p>Loading Project...</p>,
+  loading: () => <Loading/>,
 });
 const Footer = dynamic(() => import("@/components/Footer"), {
-  loading: () => <p>Loading Project...</p>,
+  loading: () => <Loading/>,
 });
 
 // ended lazy loading code spliting 2025
@@ -29,7 +30,7 @@ const Footer = dynamic(() => import("@/components/Footer"), {
 const Page = () => {
   return (
     <>
-      <div className="bg-gradient-to-r from-black to-black/80 pt-2 max-w-screen">
+      <div className="bg-gradient-to-r from-black to-blue-950 max-w-screen">
         {/* <Header /> */}
         <Main />
         <ScrollComponent />

@@ -92,18 +92,19 @@ export const dataScrollText = [
 ];
 
 export const dataCarrerJouney = [
-  {
+   {
     id: 1,
-    company: "Cretivox Broadcasting Network",
-    position: "Front End Developer",
-    date: "2023 Desember - 2024 Mei",
-  },
-  {
-    id: 2,
     company: "Zova Technology",
     position: "Quality Assurance Specialist ( Manual Testing )",
     date: "2025 January - Present",
   },
+  {
+    id: 2,
+    company: "Cretivox Broadcasting Network",
+    position: "Front End Developer",
+    date: "2023 Desember - 2024 Mei",
+  },
+ 
 ];
 
 // data for project
@@ -178,7 +179,7 @@ export const projects = [
   {
     id: 1,
     name: "Todo List App",
-    status: "Personal Project",
+    status: "Personal Project 🧑‍💻",
     statusLink: true,
     techstack: "",
     image: TodoListApp,
@@ -189,7 +190,7 @@ export const projects = [
   {
     id: 2,
     name: "Dashboard Admin Kuis Tipis Tipis Monitoring",
-    status: "Work Project",
+    status: "Work Project 🏢",
     statusLink: false,
     role: "Front End Developer",
     techstack: "",
@@ -201,7 +202,7 @@ export const projects = [
   {
     id: 3,
     name: "Exatch Match Marketing",
-    status: "Work Project",
+    status: "Work Project 🏢",
     statusLink: false,
     techstack: "",
     role: "Quality Assurance Specialist",
@@ -213,7 +214,7 @@ export const projects = [
   {
     id: 4,
     name: "Landing Page Internship",
-    status: "Work Project",
+    status: "Work Project 🏢",
     statusLink: true,
     techstack: "",
     role: "Front End Developer ",
@@ -225,7 +226,7 @@ export const projects = [
   {
     id: 5,
     name: "Cretivox Company Landing Page",
-    status: "Work Project ",
+    status: "Work Project 🏢",
     statusLink: true,
     techstack: "",
     role: "Front End Developer",
