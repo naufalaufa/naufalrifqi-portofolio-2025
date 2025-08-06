@@ -8,7 +8,7 @@ const Project = () => {
     <div className="py-24 p-4">
       <div>
         <h1 className="font-bold text-white  ml-4 text-center italic">
-          {"{ "}Project{" }"}
+          {"{ "}Project 💻{" }"}
         </h1>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 mt-24 gap-8">

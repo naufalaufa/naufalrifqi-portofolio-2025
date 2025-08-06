@@ -1,3 +1,5 @@
+import ContributeWithMe from "@/components/ContributeWithMe";
+import Header from "@/components/Header";
 import Loading from "@/components/Loading";
 import SideIcon from "@/components/SideIcon";
 import dynamic from "next/dynamic";
@@ -31,12 +33,12 @@ const Page = () => {
   return (
     <>
       <div className="bg-gradient-to-r from-black to-blue-950 max-w-screen">
-        {/* <Header /> */}
         <Main />
         <ScrollComponent />
         <About />
         <CarrerJourney />
         <Project />
+        <ContributeWithMe/>
         <Footer />
         <SideIcon />
       </div>

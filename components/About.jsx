@@ -11,10 +11,10 @@ const About = () => {
         <div className="text-lg ">
           <p>
             Hi, I'm{" "}
-            <span className="font-bold italic">Mochamad Naufal Aufa Rifqi</span>{" "}
+            <span className="font-bold italic">Mochamad Naufal Aufa Rifqi</span>{" "} Starting Learn Code in 2022  ,
             Live in Jakarta - Indonesia Born Since 2005 — a passionate{" "}
             <span className="font-bold italic">Front-End Developer</span> with 1
-            year of hands-on experience crafting seamless user interfaces and
+            year in Industry of hands-on experience crafting seamless user interfaces and
             dynamic web applications. My primary weapon of choice is{" "}
             <span>JavaScript</span>, and I specialize in building modern,
             scalable front-end solutions using

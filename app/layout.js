@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Mochamad Naufal Aufa Rifqi - Portofolio",
+  title: "Mochamad Naufal Aufa Rifqi || Tech Enthusiast Portofolio",
   description: "Portofolio Project since 2025",
 };
 

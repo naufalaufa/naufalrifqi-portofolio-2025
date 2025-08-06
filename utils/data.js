@@ -104,8 +104,22 @@ export const dataCarrerJouney = [
     position: "Front End Developer",
     date: "2023 Desember - 2024 Mei",
   },
- 
 ];
+
+export const dataEducationJourney = [
+  {
+    id : 1 , 
+    education : 'SMK SATRIA JAKARTA' , 
+    role : 'Computer And Network Engineering',
+    date : '2020 - 2023'
+  },
+  {
+    id : 2 , 
+    education : 'Terbuka University' , 
+    role : 'Information System',
+    date : '2023 - Present'
+  },
+]
 
 // data for project
 export const dataProject = [

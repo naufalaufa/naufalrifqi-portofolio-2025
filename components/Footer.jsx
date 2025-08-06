@@ -3,13 +3,11 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="grid py-12 md:grid-cols-2 place-content-center place-items-center w-screen m-auto">
+    <footer className="grid py-12 md:grid-cols-2 place-content-center place-items-center w-screen m-auto bg-blue-700">
         <div className="text-sm mb-5 text-white text-center">
           <div>
-             <p>
-              Personal Portofolio
-              </p>
-              <p className="font-bold">Mochamad Naufal Aufa Rifqi</p>
+            <p>Personal Portofolio </p>
+            <p className="font-bold">Mochamad Naufal Aufa Rifqi</p>
           </div>
           <p className="mt-9 mb-2 text-xs">© Copyright By Mochamad Naufal Aufa Rifqi 2025</p>
         </div>

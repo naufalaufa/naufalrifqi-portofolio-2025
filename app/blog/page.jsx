@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { dataBlog } from "@/utils/dataBlog";
 import Image from "next/image";
@@ -5,29 +6,22 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="bg-black min-h-screen pt-2 ">
+    <div className="bg-gradient-to-r from-black to-blue-950 min-h-screen pt-2 ">
       <Header />
-      <div className="grid grid-cols-2 py-8 px-8 gap-5 min-h-screen">
-        {dataBlog.map((blog) => {
+     <div className="py-12">
+      <h1 className="text-center text-white text-sm">( BLOG ) By Mochamad Naufal Aufa Rifqi</h1>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 px-4 py-12">
+        {dataBlog.map((item) => {
+          const {createdAt , description , id , image , title } = item
           return (
-            <div
-              key={blog.id}
-              className="bg-white rounded-lg rotate-1 relative"
-            >
-              <Image
-                className="w-full h-full object-cover"
-                src={blog.image}
-                alt={blog.title}
-              />
-              <div className="absolute bottom-0 top-0 right-0 left-0 grid place-content-center place-items-center text-white font-bold">
-                <p className="text-xl text-shadow-slate-900 text-shadow-lg">
-                  {blog.title}
-                </p>
+            <div key={item.id}>
+                <Image src={image} alt={title}/>
               </div>
-            </div>
-          );
+          )
         })}
       </div>
+     </div>
+     <Footer/>
     </div>
   );
 };
