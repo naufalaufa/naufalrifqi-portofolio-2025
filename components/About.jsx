@@ -29,7 +29,7 @@ const About = () => {
             className="bg-black border border-white text-center m-auto py-2 px-2 w-[50%] rounded-lg text-white hover:bg-white hover:text-black hover:border-black
             duration-300 cursor-pointer text-md whitespace-nowrap font-bold"
           >
-            View Resume⬇️
+            View Resume ⬇️
           </a>
           <div className="w-[24vw] mt-2 h-[0.7] bg-black"></div>
         </div>

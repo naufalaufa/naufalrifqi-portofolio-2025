@@ -15,7 +15,7 @@ const Footer = () => {
           <p className="font-bold text-center">
           Contact Me
           </p>
-            <p className="text-xs mb-8">Connect my social media to Contribute Collaborate and Create Impact.</p>
+            <p className="text-xs mb-8 max-w-[200px] text-center">Connect my social media to Contribute Collaborate and Create Impact.</p>
           <div className="flex gap-5 justify-center my-2">
             {dataFooter.map((footerItem) => (
               <Link target="_blank" key={footerItem.id} href={footerItem.link}>{<footerItem.icon size={25}/>}</Link>

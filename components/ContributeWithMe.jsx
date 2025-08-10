@@ -10,9 +10,11 @@ const ContributeWithMe = () => {
     <div className='p-4 place-content-center place-items-center min-h-screen grid grid-cols-1 md:grid-cols-2 py-4'>
         <div className='order-2 md:order-1'>
             <h4 className='text-white text-lg md:text-2xl font-bold my-6 max-w-[500px] '>"Let’s build something impactful together for your business or project."</h4>
-            <button className='bg-gradient-to-r from-blue-700 to-slate-400 p-3 rounded-lg text-white flex items-center gap-5'>
-                <a href='https://wa.me/6285156802452' target='_blank' className='font-bold text-sm md:text-lg whitespace-nowrap'>Say Hello And Connect</a>
-                <MdArrowOutward size={35}/>
+            <button className='bg-gradient-to-r from-blue-700 to-slate-400 rounded-lg text-white'>
+                <a href='https://wa.me/6285156802452' target='_blank' className='font-bold text-sm md:text-lg whitespace-nowrap p-3 flex items-center gap-5'>
+                  <p>Say Hello And Connect</p>
+                  <MdArrowOutward size={35}/>
+                </a>
             </button>
         </div>
       <div className='order-1 md:order-2'>

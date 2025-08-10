@@ -11,7 +11,7 @@ const ScrollComponent = () => {
 
   useEffect(() => {
     gsap.to(rowOneRef.current, {
-      x: 26,
+      x: 46,
       scrollTrigger: {
         trigger: rowOneRef.current,
         start: "top bottom",
@@ -20,7 +20,7 @@ const ScrollComponent = () => {
     });
 
     gsap.to(rowTwoRef.current, {
-      x: -8,
+      x: -28,
       scrollTrigger: {
         trigger: rowTwoRef.current,
         start: "top bottom",
@@ -33,30 +33,30 @@ const ScrollComponent = () => {
     <>
       <div
         ref={rowOneRef}
-        className="grid grid-cols-3 gap-28 bg-black text-white -rotate-1 overflow-hidden max-w-full"
+        className="grid grid-cols-3 gap-28 bg-black text-white -rotate-1 overflow-x-hidden max-w-full"
       >
-        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap  ">
+        <div className="text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap">
           CODE EAT SLEEP REPEAT
         </div>
-        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap ">
+        <div className="text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap">
           CODE EAT SLEEP REPEAT
         </div>
-        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap ">
-          CODE EAT SLEEP REPEAT
+        <div className="text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap">
+          CODE EAT SLEEP REPEAT 
         </div>
       </div>
 
       <div
         ref={rowTwoRef}
-        className="grid grid-cols-3 gap-28 bg-white text-black -rotate-0 overflow-hidden max-w-full"
+        className="grid grid-cols-3 gap-28 bg-white text-black -rotate-0 overflow-x-hidden max-w-full"
       >
-        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap ">
+        <div className="text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap">
           CODE EAT SLEEP REPEAT
         </div>
-        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap ">
+        <div className="text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap">
           CODE EAT SLEEP REPEAT
         </div>
-        <div className=" text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap ">
+        <div className="text-xs text-center w-full md:text-xl lg:text-3xl font-bold whitespace-nowrap">
           CODE EAT SLEEP REPEAT
         </div>
       </div>

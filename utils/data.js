@@ -2,16 +2,12 @@ import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 import NaufalAboutImage from "../public/images/naufal.png";
 import NaufalAbout2Image from "../public/images/w.jpg";
 import NaufalAbout3Image from "../public/images/ganteng.jpg";
-import NaufalAbout4Image from "../public/images/me.jpg";
-import NaufalAbout5Image from "../public/images/naufalrifqi-1.jpg";
-import NaufalAbout6Image from "../public/images/naufalculture.jpg";
 import NaufalAbout7Image from "../public/images/naufal-pap.jpg";
 import TodoListApp from "../public/images/laptop-todolist.png";
 import DashboardMonitoring from "../public/images/monitoring (1).png";
 import ExatchMatchMarketing from "../public/images/exacthmatchmarketing.png";
 import LandingPageInternship from "../public/images/landing-page-internship.png";
 import CretivoxCompany from "../public/images/Cretivox Intern.png";
-// data for navbar
 
 export const data = [
   {
@@ -26,7 +22,6 @@ export const data = [
   },
 ];
 
-// data for role main
 export const dataRole = [
   {
     id: 1,
@@ -57,7 +52,6 @@ export const dataRoleDivision = [
   },
 ];
 
-// data scroll text
 export const dataScrollText = [
   {
     id: 1,
@@ -121,7 +115,6 @@ export const dataEducationJourney = [
   },
 ]
 
-// data for project
 export const dataProject = [
   {
     id: 1,
@@ -152,18 +145,6 @@ export const AboutImage = [
   },
   {
     id: 4,
-    image: NaufalAbout4Image,
-  },
-  {
-    id: 5,
-    image: NaufalAbout5Image,
-  },
-  {
-    id: 6,
-    image: NaufalAbout6Image,
-  },
-  {
-    id: 7,
     image: NaufalAbout7Image,
   },
 ];
