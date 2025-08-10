@@ -65,9 +65,9 @@ const CarrerJourney = () => {
                 <div className="flex flex-col items-center md:items-end">
                   <div className="text-md flex items-center gap-2 2xl:text-lg text-white">
                     <MdOutlineDateRange />
-                    <span className="text-md 2xl:text-lg text-white">{role}</span>
+                    <span>{date}</span>
                   </div>
-                  <span>{date}</span>
+                    <span className="text-md 2xl:text-lg text-white">{role}</span>
                 </div>
               </div>
             );
