@@ -7,10 +7,7 @@ import { RiGraduationCapFill } from "react-icons/ri";
 const CarrerJourney = () => {
   return (
     <section className="bg-gradient-to-r from-black to-blue-900 text-white p-3">
-      <p className="p-3 text-sm font-bold my-10 italic">
-        {"{ "}Carrer Journey And Education 🚀{" }"}
-      </p>
-
+      <p className="p-3 text-sm font-bold my-10 italic">{"{ "}Carrer Journey And Education 🚀{" }"}</p>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
         <div>
           <div className="flex items-center justify-center gap-3">

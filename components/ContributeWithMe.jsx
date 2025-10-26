@@ -12,16 +12,18 @@ const ContributeWithMe = () => {
           <div>
             <h4 className='text-white text-sm text-center md:text-2xl font-bold my-6 max-w-[500px]'>"Let’s build something impactful together for your business or project."</h4>
             <button className='bg-gradient-to-r from-blue-700 to-slate-400 rounded-lg text-white mx-auto block'>
-                <a href='https://wa.me/6285156802452' target='_blank' className='font-bold text-sm md:text-lg whitespace-nowrap p-3 flex items-center gap-5'>
-                  <p>Say Hello And Connect</p>
-                  <MdArrowOutward size={35}/>
+                <a href='https://wa.me/6285156802452'
+                   target='_blank'
+                   className='font-bold text-sm md:text-lg whitespace-nowrap p-3 flex items-center gap-5'>
+                    <p>Say Hello And Connect</p>
+                    <MdArrowOutward size={35}/>
                 </a>
             </button>
           </div>
         </div>
       <div className='order-1 md:order-2'>
         <div className='relative'>
-          <Image src={naufalBlue} alt={naufalBlue} className='w-[300px] rounded-full h-[300px] md:w-[400px] md:h-[400px] lg:w-[550px] lg:h-[550px] object-cover object-top'/>
+          <Image src={naufalBlue} alt={naufalBlue} className='w-[300px] rounded-full h-[300px] md:w-[400px] md:h-[400px] xl:w-[550px] lg:h-[550px] object-cover object-top'/>
           <div className='absolute top-0 left-0 right-0 bottom-0 rounded-full grid place-content-center place-items-center font-bold shadow-md shadow-black'>
             <h4 className='text-xs text-white text-shadow-sm text-shadow-black'>Mochamad Naufal Aufa Rifqi</h4>
           </div>
@@ -29,7 +31,6 @@ const ContributeWithMe = () => {
       </div>
     </div>
   </>
-     
   )
 }
 
