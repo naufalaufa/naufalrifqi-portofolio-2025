@@ -1,4 +1,3 @@
-import ContributeWithMe from "@/components/ContributeWithMe";
 import Loading from "@/components/Loading";
 import SideIcon from "@/components/SideIcon";
 import dynamic from "next/dynamic";
@@ -16,7 +15,13 @@ const About = dynamic(() => import("@/components/About"), {
 const CarrerJourney = dynamic(() => import("@/components/CarrerJourney"), {
   loading: () => <Loading/>,
 });
+const Skills = dynamic(() => import("@/components/Skills"), {
+  loading: () => <Loading/>,
+});
 const Project = dynamic(() => import("@/components/Project"), {
+  loading: () => <Loading/>,
+});
+const ContributeWithMe = dynamic(() => import("@/components/ContributeWithMe"), {
   loading: () => <Loading/>,
 });
 const Footer = dynamic(() => import("@/components/Footer"), {
@@ -31,6 +36,7 @@ const Page = () => {
         <Main />
         <ScrollComponent />
         <About />
+        <Skills/>
         <CarrerJourney />
         <Project />
         <ContributeWithMe/>

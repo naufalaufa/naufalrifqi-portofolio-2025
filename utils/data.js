@@ -1,13 +1,13 @@
-import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 import NaufalAboutImage from "../public/images/naufal.png";
-import NaufalAbout2Image from "../public/images/w.jpg";
 import NaufalAbout3Image from "../public/images/ganteng.jpg";
-import NaufalAbout7Image from "../public/images/naufal-pap.jpg";
 import TodoListApp from "../public/images/laptop-todolist.png";
 import DashboardMonitoring from "../public/images/monitoring (1).png";
 import ExatchMatchMarketing from "../public/images/exacthmatchmarketing.png";
 import LandingPageInternship from "../public/images/landing-page-internship.png";
 import CretivoxCompany from "../public/images/Cretivox Intern.png";
+import { FaLinkedin, FaGithub, FaWhatsapp, FaSourcetree , FaReact, FaVuejs, FaGitAlt, FaDatabase  } from "react-icons/fa";
+import { SiNextdotjs, SiRedux, SiTailwindcss, SiAntdesign, SiMysql, SiMongodb, SiPostman, SiTypescript, SiJavascript } from 'react-icons/si'
+
 
 export const data = [
   {
@@ -137,17 +137,45 @@ export const AboutImage = [
   },
   {
     id: 2,
-    image: NaufalAbout2Image,
-  },
-  {
-    id: 3,
     image: NaufalAbout3Image,
   },
-  {
-    id: 4,
-    image: NaufalAbout7Image,
-  },
 ];
+
+export const SkillsItem = [
+  {
+    FrontendRole: [
+      { id: 1, name: 'Next.js', icon: SiNextdotjs },
+      { id: 2, name: 'React.js', icon: FaReact },
+      { id: 3, name: 'Vue.js', icon: FaVuejs },
+      { id: 4, name: 'Redux Toolkit', icon: SiRedux },
+      { id: 5, name: 'TailwindCSS', icon: SiTailwindcss },
+      { id: 6, name: 'AntDesign', icon: SiAntdesign },
+      { id: 7, name: 'CSS', icon: FaDatabase }
+    ],
+
+    QualityAssuranceRole: [
+      { id: 1, name: 'Postman', icon: SiPostman },
+      { id: 2, name: 'Manual Testing' },
+      { id: 3, name: 'Jamdev' },
+    ],
+
+    Database: [
+      { id: 1, name: 'MySQL', icon: SiMysql },
+      { id: 2, name: 'MongoDB', icon: SiMongodb },
+    ],
+
+    VersionControlSystem: [
+      { id: 1, name: 'Git', icon: FaGitAlt },
+      { id: 2, name: 'Sourcetree' , icon : FaSourcetree },
+    ],
+
+    ProgrammingLanguange: [
+      { id: 1, name: 'JavaScript', icon: SiJavascript },
+      { id: 2, name: 'TypeScript', icon: SiTypescript },
+    ]
+  }
+]
+
 
 export const dataFooter = [
   {

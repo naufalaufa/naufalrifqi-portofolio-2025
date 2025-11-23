@@ -32,7 +32,7 @@ const About = () => {
           <div className="w-[24vw] mt-2 h-[0.7] bg-black"></div>
         </div>
       </div>
-      <div className="columns-4 m-5 gap-3">
+      <div className="columns-2 m-5 gap-2">
         {AboutImage.map((image) => {
           return (
             <Image
