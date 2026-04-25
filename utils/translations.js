@@ -1,0 +1,123 @@
+export const translations = {
+  en: {
+    nav: {
+      home: "Home",
+      blog: "Blog",
+    },
+    hero: {
+      badge: "The Portfolio as Naufal Journey",
+      tagline: "Line to line — Code to code — Years to years — From zero to hero",
+    },
+    about: {
+      label: "Introduction",
+      heading: "About",
+      headingHighlight: "Me",
+      p1_after_name: " based in Jakarta, Indonesia — I started my coding journey in 2022.",
+      p2_role: "Front-End Developer with 2 years",
+      p2_after_role: " of professional experience building responsive and performant web applications. Gained hands-on exposure across the full development cycle — from crafting UI components and integrating REST APIs to conducting manual QA testing in a lean, fast-paced startup environment.",
+      resume: "View Resume ↓",
+    },
+    skills: {
+      label: "Expertise",
+      heading: "Skills &",
+      headingHighlight: "Tools",
+      categories: {
+        FrontendRole: "Frontend Development",
+        QualityAssuranceRole: "Quality Assurance",
+        Database: "Database",
+        VersionControlSystem: "Version Control",
+        ProgrammingLanguange: "Programming Languages",
+        AIAndDevEnvironment: "AI & Dev Environment",
+      },
+    },
+    career: {
+      label: "Journey",
+      heading: "Career &",
+      headingHighlight: "Education",
+      workTitle: "Work Experience",
+      eduTitle: "Education",
+    },
+    projects: {
+      label: "Portfolio",
+      heading: "Selected",
+      headingHighlight: "Projects",
+      visitLink: "Visit Project",
+      privateLabel: "Private Project",
+    },
+    contact: {
+      label: "Let's Talk",
+      heading: "Let's build something",
+      headingHighlight: "impactful",
+      headingSuffix: "together.",
+      desc: "Whether it's a business project, collaboration, or just a chat — I'm always open to new opportunities and ideas.",
+      cta: "Say Hello & Connect",
+    },
+    footer: {
+      portfolioLabel: "Personal Portfolio",
+      copyright: "© 2025 Mochamad Naufal Aufa Rifqi. All rights reserved.",
+      connectTitle: "Connect With Me",
+      connectDesc: "Collaborate, create, and build impactful things together.",
+    },
+  },
+
+  id: {
+    nav: {
+      home: "Beranda",
+      blog: "Blog",
+    },
+    hero: {
+      badge: "Portofolio Perjalanan Naufal",
+      tagline: "Baris demi baris — Kode demi kode — Tahun demi tahun — Dari nol menjadi hebat",
+    },
+    about: {
+      label: "Perkenalan",
+      heading: "Tentang",
+      headingHighlight: "Saya",
+      p1_after_name: " berdomisili di Jakarta, Indonesia — saya mulai belajar coding sejak 2022.",
+      p2_role: "Front-End Developer dengan 2 tahun",
+      p2_after_role: " pengalaman profesional membangun aplikasi web yang responsif dan performan. Terlibat langsung di seluruh siklus pengembangan — mulai dari membuat komponen UI, integrasi REST API, hingga QA testing manual di lingkungan startup yang cepat dan dinamis.",
+      resume: "Lihat Resume ↓",
+    },
+    skills: {
+      label: "Keahlian",  
+      heading: "Skill &",
+      headingHighlight: "Alat",
+      categories: {
+        FrontendRole: "Pengembangan Frontend",
+        QualityAssuranceRole: "Quality Assurance",
+        Database: "Database",
+        VersionControlSystem: "Version Control",
+        ProgrammingLanguange: "Bahasa Pemrograman",
+        AIAndDevEnvironment: "AI & Lingkungan Dev",
+      },
+    },
+    career: {
+      label: "Perjalanan",
+      heading: "Karier &",
+      headingHighlight: "Pendidikan",
+      workTitle: "Pengalaman Kerja",
+      eduTitle: "Pendidikan",
+    },
+    projects: {
+      label: "Portofolio",
+      heading: "Proyek",
+      headingHighlight: "Pilihan",
+      visitLink: "Kunjungi Proyek",
+      privateLabel: "Proyek Privat",
+    },
+    contact: {
+      label: "Ayo Ngobrol",
+      heading: "Mari bangun sesuatu yang",
+      headingHighlight: "berdampak",
+      headingSuffix: "bersama.",
+      desc: "Baik itu proyek bisnis, kolaborasi, atau sekadar ngobrol — saya selalu terbuka untuk peluang dan ide baru.",
+      cta: "Sapa & Terhubung",
+    },
+    footer: {
+      portfolioLabel: "Portofolio Pribadi",
+      copyright: "© 2025 Mochamad Naufal Aufa Rifqi. Semua hak dilindungi.",
+      connectTitle: "Hubungi Saya",
+      connectDesc: "Kolaborasi, berkreasi, dan bangun hal-hal berdampak bersama.",
+    },
+  },
+};

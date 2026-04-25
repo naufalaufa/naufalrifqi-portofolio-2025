@@ -1,11 +1,9 @@
-import React from 'react'
-
 const Loading = () => {
   return (
-    <div className='w-screen min-h-screen grid place-content-center place-items-center'>
-        <span className='text-white'>Loading...</span>
+    <div className="min-h-[300px] flex items-center justify-center">
+      <div className="w-6 h-6 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
     </div>
-  )
-}
+  );
+};
 
-export default Loading
+export default Loading;

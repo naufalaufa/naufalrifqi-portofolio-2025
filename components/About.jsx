@@ -1,52 +1,68 @@
+"use client";
 import { AboutImage } from "@/utils/data";
 import Image from "next/image";
+import { useLanguage } from "@/context/LanguageContext";
+import { translations } from "@/utils/translations";
 
 const About = () => {
+  const { lang } = useLanguage();
+  const translation = translations[lang].about;
+
   return (
-    <div className="bg-gradient-to-l text-white from-black to-blue-950 grid grid-cols-1 md:grid-cols-2 py-24 place-content-center">
-      <div className="ml-5">
-        <h1 className="mb-20 text-sm font-semibold italic">{"{ "}Introduction 🧒{" }"}</h1>
-        <div className="text-lg ">
-          <p>
-            Hi, I'm{" "}
-            <span className="font-bold italic">Mochamad Naufal Aufa Rifqi</span>{" "} Starting Learn Code in 2022  ,
-            Live in Jakarta - Indonesia Born Since 2005 — a passionate{" "}
-            <span className="font-bold italic">Front-End Developer</span> with 1
-            year in Industry of hands-on experience crafting seamless user interfaces and
-            dynamic web applications. My primary weapon of choice is{" "}
-            <span>JavaScript</span>, and I specialize in building modern,
-            scalable front-end solutions using
-            <span className="mx-1 font-bold italic">React.js and Next.js</span>
-         </p>
-        </div>
-        <div className="mt-8">
+    <section
+      id="about"
+      className="bg-gradient-to-bl from-black via-gray-950 to-blue-950 text-white py-32 px-6"
+    >
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+        <div>
+          <p className="text-blue-400 text-xs font-mono tracking-[0.3em] uppercase mb-4">
+            {translation.label}
+          </p>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-8 leading-tight">
+            {translation.heading}{" "}
+            <span className="text-blue-400">{translation.headingHighlight}</span>
+          </h2>
+          <div className="space-y-4 text-white/65 text-base leading-relaxed">
+            <p>
+              Hi, I&apos;m{" "}
+              <span className="text-white font-semibold mr-1">Mochamad Naufal Aufa Rifqi</span>
+              {translation.p1_after_name}
+            </p>
+            <p>
+              <span className="text-blue-400 font-semibold">{translation.p2_role}</span>{" "}
+              {translation.p2_after_role}
+            </p>
+          </div>
+          <div className="mt-10">
             <a
-              href="/Mochamad-Naufal-Aufa-Rifqi-Tech-060122025.pdf"
+              href="/Mochamad-Naufal-Aufa-Tech-Resume-2-Years.pdf"
               rel="noreferrer"
               target="_blank"
-              className="bg-black border border-white text-center m-auto py-2 px-2 w-[50%] rounded-lg text-white hover:bg-white hover:text-black hover:border-black
-              duration-300 cursor-pointer text-md whitespace-nowrap font-bold"
+              className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25"
             >
-              View Resume ⬇️
+              {translation.resume}
             </a>
-          <div className="w-[24vw] mt-2 h-[0.7] bg-black"></div>
+          </div>
+        </div>
+
+        <div className="columns-2 gap-4">
+          {AboutImage.map((image) => (
+            <div
+              key={image.id}
+              className="mb-4 overflow-hidden rounded-2xl border border-white/10"
+            >
+              <Image
+                alt="Naufal"
+                src={image.image}
+                width={300}
+                height={400}
+                className="w-full h-auto hover:scale-105 transition-transform duration-500 object-cover"
+              />
+            </div>
+          ))}
         </div>
       </div>
-      <div className="columns-2 m-5 gap-2">
-        {AboutImage.map((image) => {
-          return (
-            <Image
-              alt="About Image"
-              key={image.id}
-              src={image.image}
-              width={200}
-              height={200}
-              className="rounded-lg m-3 shadow-lg hover:scale-105 transition-transform duration-300"
-            />
-          );
-        })}
-      </div>
-    </div>
+    </section>
   );
 };
 

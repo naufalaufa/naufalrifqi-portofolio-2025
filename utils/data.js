@@ -3,24 +3,11 @@ import NaufalAbout3Image from "../public/images/ganteng.jpg";
 import TodoListApp from "../public/images/laptop-todolist.png";
 import DashboardMonitoring from "../public/images/monitoring (1).png";
 import ExatchMatchMarketing from "../public/images/exacthmatchmarketing.png";
-import LandingPageInternship from "../public/images/landing-page-internship.png";
-import CretivoxCompany from "../public/images/Cretivox Intern.png";
 import { FaLinkedin, FaGithub, FaWhatsapp, FaSourcetree , FaReact, FaVuejs, FaGitAlt, FaDatabase  } from "react-icons/fa";
 import { SiNextdotjs, SiRedux, SiTailwindcss, SiAntdesign, SiMysql, SiMongodb, SiPostman, SiTypescript, SiJavascript } from 'react-icons/si'
+import { BsStars, BsCursorFill } from 'react-icons/bs'
 
 
-export const data = [
-  {
-    id: "home",
-    title: "Home",
-    path: "/",
-  },
-  {
-    id: "blog",
-    title: "Blog",
-    path: "/blog",
-  },
-];
 
 export const dataRole = [
   {
@@ -88,13 +75,13 @@ export const dataScrollText = [
 export const dataCarrerJouney = [
    {
     id: 1,
-    company: "Zova Technology",
+    company: "Zova Technology 🏢",
     position: "Quality Assurance Specialist ( Manual Testing )",
     date: "2025 January - Present",
   },
   {
     id: 2,
-    company: "Cretivox Broadcasting Network",
+    company: "Cretivox Broadcasting Network 🏢",
     position: "Front End Developer",
     date: "2023 Desember - 2024 Mei",
   },
@@ -172,7 +159,12 @@ export const SkillsItem = [
     ProgrammingLanguange: [
       { id: 1, name: 'JavaScript', icon: SiJavascript },
       { id: 2, name: 'TypeScript', icon: SiTypescript },
-    ]
+    ],
+
+    AIAndDevEnvironment: [
+      { id: 1, name: 'Claude', icon: BsStars },
+      { id: 2, name: 'Cursor', icon: BsCursorFill },
+    ],
   }
 ]
 
@@ -233,29 +225,5 @@ export const projects = [
     description:
       "This is a project in Zova Technology , Exact Match Marketing is a web-based platform designed to help businesses and marketing agencies identify and convert website visitors into sales leads in real-time It tracks internet search traffic for specific keywords, names, and URLs, and reveals useful visitor information like names, emails, phone numbers, or addresses ",
     href: "https://naufal-todo-ts.vercel.app/",
-  },
-  {
-    id: 4,
-    name: "Landing Page Internship",
-    status: "Work Project 🏢",
-    statusLink: true,
-    techstack: "",
-    role: "Front End Developer ",
-    image: LandingPageInternship,
-    description:
-      "This is a project in Cretivox Broadcasting Network Company, landing page website from design to code , using techstack such as React.js for the frontend and GSAP for animation.",
-    href: "https://batchse.vercel.app/",
-  },
-  {
-    id: 5,
-    name: "Cretivox Company Landing Page",
-    status: "Work Project 🏢",
-    statusLink: true,
-    techstack: "",
-    role: "Front End Developer",
-    image: CretivoxCompany,
-    description:
-      "This is a project in Cretivox Broadcasting Network Company, project internship landing page website , slicing from design to code FIGMA using techstack such as React.js for the frontend and GSAP for animation.",
-    href: "https://cretivox-company.vercel.app/",
   },
 ];

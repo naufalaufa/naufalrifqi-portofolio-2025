@@ -1,49 +1,47 @@
 import Loading from "@/components/Loading";
 import SideIcon from "@/components/SideIcon";
+import Header from "@/components/Header";
 import dynamic from "next/dynamic";
 
-
 const Main = dynamic(() => import("@/components/Main"), {
-  loading: () => <Loading/>,
+  loading: () => <Loading />,
 });
 const ScrollComponent = dynamic(() => import("@/components/ScrollComponent"), {
-  loading: () => <Loading/>,
+  loading: () => <Loading />,
 });
 const About = dynamic(() => import("@/components/About"), {
-  loading: () => <Loading/>,
+  loading: () => <Loading />,
 });
 const CarrerJourney = dynamic(() => import("@/components/CarrerJourney"), {
-  loading: () => <Loading/>,
+  loading: () => <Loading />,
 });
 const Skills = dynamic(() => import("@/components/Skills"), {
-  loading: () => <Loading/>,
+  loading: () => <Loading />,
 });
 const Project = dynamic(() => import("@/components/Project"), {
-  loading: () => <Loading/>,
+  loading: () => <Loading />,
 });
 const ContributeWithMe = dynamic(() => import("@/components/ContributeWithMe"), {
-  loading: () => <Loading/>,
+  loading: () => <Loading />,
 });
 const Footer = dynamic(() => import("@/components/Footer"), {
-  loading: () => <Loading/>,
+  loading: () => <Loading />,
 });
-
 
 const Page = () => {
   return (
-    <>
-      <div className="bg-gradient-to-r from-black to-blue-950 max-w-screen">
-        <Main />
-        <ScrollComponent />
-        <About />
-        <Skills/>
-        <CarrerJourney />
-        <Project />
-        <ContributeWithMe/>
-        <Footer />
-        <SideIcon />
-      </div>
-    </>
+    <div className="bg-black">
+      <Header />
+      <Main />
+      <ScrollComponent />
+      <About />
+      <Skills />
+      <CarrerJourney />
+      <Project />
+      <ContributeWithMe />
+      <Footer />
+      <SideIcon />
+    </div>
   );
 };
 

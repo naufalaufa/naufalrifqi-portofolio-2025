@@ -1,25 +1,44 @@
+"use client";
 import { dataFooter } from "@/utils/data";
 import Link from "next/link";
+import { useLanguage } from "@/context/LanguageContext";
+import { translations } from "@/utils/translations";
 
 const Footer = () => {
+  const { lang } = useLanguage();
+  const translation = translations[lang].footer;
+
   return (
-    <footer className="grid py-12 md:grid-cols-2 place-content-center place-items-center w-screen m-auto bg-blue-700">
-        <div className="text-sm mb-5 text-white text-center">
-            <div>
-              <p>Personal Portofolio</p>
-              <p className="font-bold">Mochamad Naufal Aufa Rifqi</p>
-            </div>
-              <p className="mt-9 mb-2 text-xs">© Copyright By Mochamad Naufal Aufa Rifqi 2025</p>
+    <footer className="bg-black border-t border-white/10 py-14 px-6">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <div>
+          <p className="font-bold text-lg text-white tracking-widest">
+            NAUFAL<span className="text-blue-400">.</span>
+          </p>
+          <p className="text-white/35 text-xs mt-2">{translation.portfolioLabel}</p>
+          <p className="text-white/25 text-xs mt-8">{translation.copyright}</p>
         </div>
-        <div className="text-sm mb-5 text-white border-white">
-            <p className="font-bold text-center">Contact Me</p>
-            <p className="text-xs mb-8 max-w-[200px] text-center">Connect my social media to Contribute Collaborate and Create Impact.</p>
-          <div className="flex gap-5 justify-center my-2">
+
+        <div className="md:text-right">
+          <p className="font-bold text-sm text-white mb-2">{translation.connectTitle}</p>
+          <p className="text-white/35 text-xs mb-6 max-w-[220px] md:ml-auto">
+            {translation.connectDesc}
+          </p>
+          <div className="flex gap-4 md:justify-end">
             {dataFooter.map((footerItem) => (
-              <Link target="_blank" key={footerItem.id} href={footerItem.link}>{<footerItem.icon size={25}/>}</Link>
+              <Link
+                target="_blank"
+                key={footerItem.id}
+                href={footerItem.link}
+                aria-label={footerItem.title}
+                className="text-white/40 hover:text-white transition-colors duration-300"
+              >
+                <footerItem.icon size={22} />
+              </Link>
             ))}
           </div>
         </div>
+      </div>
     </footer>
   );
 };
