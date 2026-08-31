@@ -216,7 +216,7 @@ export const projects = [
   },
   {
     id: 3,
-    name: "Exatch Match Marketing",
+    name: "Exact Match Marketing",
     status: "Work Project 🏢",
     statusLink: false,
     techstack: "",
