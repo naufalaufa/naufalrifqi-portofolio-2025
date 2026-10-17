@@ -75,12 +75,18 @@ export const dataScrollText = [
 export const dataCarrerJouney = [
    {
     id: 1,
+    company: "Pusat Gadai Indonesia 🏢",
+    position: "Software Quality Assurrance",
+    date: "2026 Oktober - Present",
+  },
+   {
+    id: 2,
     company: "Zova Technology 🏢",
     position: "Quality Assurance Specialist ( Manual Testing )",
-    date: "2025 January - Present",
+    date: "2025 January - 2026 Oktober",
   },
   {
-    id: 2,
+    id: 3,
     company: "Cretivox Broadcasting Network 🏢",
     position: "Front End Developer",
     date: "2023 Desember - 2024 Mei",
@@ -199,9 +205,9 @@ export const projects = [
     techstack: "",
     image: TodoListApp,
     description:
-      "This is a simple Project TodoList Application , Project personal techstack using React.js for the frontend and Toastify to Alert Notification",
+      " This is a simple Project TodoList Application , Project personal techstack using React.js for the frontend and Toastify to Alert Notification ",
     href: "https://naufal-todo-ts.vercel.app/",
-  },
+  }, 
   {
     id: 2,
     name: "Dashboard Admin Kuis Tipis Tipis Monitoring",
@@ -211,7 +217,7 @@ export const projects = [
     techstack: "",
     image: DashboardMonitoring,
     description:
-      "This is a project internship in Cretivox Broadcasting Network company , A monitoring dashboard built with React.js, React Query, and Tailwind CSS to track user activity in the Kuis Tipis Tipis game. It shows total visitors, completion rate, shared links, and users who didn’t finish the game",
+      " This is a project internship in Cretivox Broadcasting Network company , A monitoring dashboard built with React.js, React Query, and Tailwind CSS to track user activity in the Kuis Tipis Tipis game. It shows total visitors, completion rate, shared links, and users who didn’t finish the game ",
     href: "https://naufal-todo-ts.vercel.app/",
   },
   {
@@ -223,7 +229,7 @@ export const projects = [
     role: "Quality Assurance Specialist",
     image: ExatchMatchMarketing,
     description:
-      "This is a project in Zova Technology , Exact Match Marketing is a web-based platform designed to help businesses and marketing agencies identify and convert website visitors into sales leads in real-time It tracks internet search traffic for specific keywords, names, and URLs, and reveals useful visitor information like names, emails, phone numbers, or addresses ",
+      " This is a project in Zova Technology , Exact Match Marketing is a web-based platform designed to help businesses and marketing agencies identify and convert website visitors into sales leads in real-time It tracks internet search traffic for specific keywords, names, and URLs, and reveals useful visitor information like names, emails, phone numbers, or addresses ",
     href: "https://naufal-todo-ts.vercel.app/",
   },
 ];
